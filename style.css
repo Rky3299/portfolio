@@ -72,6 +72,15 @@ section{
     display: none;
 }
 
+marquee{
+    font-size: 2rem;
+}
+
+marquee img {
+    height: 40px;
+    position: relative;
+    top: 5px;
+}
 .home {
     display: flex;
     justify-content: center;
