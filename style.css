@@ -43,6 +43,7 @@ section{
     align-items: center;
     z-index: 100;
 }
+
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
@@ -52,6 +53,9 @@ section{
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
+}
+.logo.span{
+    color: var(--main-color);
 }
 
 .navbar a {
