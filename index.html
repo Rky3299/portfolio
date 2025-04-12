@@ -171,8 +171,9 @@
         </section>
         <!-- Contact section design -->
          <section class="contact" id="contact">
-            <h2 class="hedding">Contact <span>Me!</span></h2>
-            <form action="#">
+            
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <h2 class="hedding">Contact <span>Me!</span></h2>
                 <div class="input-box">
                     <input type="text" name="name" placeholder="Full Name">
                     <input type="email" name="name" placeholder="Email Address">
@@ -202,6 +203,10 @@
  
 <!-- scroll reveal -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-----form submit-----> 
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 
 <script src="script.js"></script>
 </body>

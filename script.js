@@ -64,3 +64,19 @@ const typed = new Typed('.multiple-text',{
     backDelay:1000,
     loop: true
 });
+
+// ================send Email ===============
+
+function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "rky.1680@gmail.com",
+        Password : "Rky%3299",
+        To : 'siri.developer.in@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "New Contact Form Enquiry",
+        Body : "And this is the body"
+        }).then(
+       message => alert(Message send sucssecfully)
+     );  
+}
